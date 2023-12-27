@@ -1,10 +1,10 @@
 ### Screenshots
 
-This folder contains screenshots of the API endpoints being executed.
+#This folder contains screenshots of the API endpoints being executed.
 
-- `create_load.png`: Screenshot of the POST request to create a new load.
-- `get_loads_by_shipper.png`: Screenshot of the GET request to retrieve loads by shipper ID.
-- `update_load.png`: Screenshot of the PUT request to update load details.
-- `delete_load.png`: Screenshot of the DELETE request to delete a load.
+- `POST load details payload`: Screenshot of the POST request to create a new load.
+- `GET load details by loadId`: Screenshot of the GET request to retrieve loads by load ID.
+- `PUT load details bt load_Id`: Screenshot of the PUT request to update load details.
+- `DELETE load details by load_Id`: Screenshot of the DELETE request to delete a load.
 
-Feel free to refer to these screenshots for a visual representation of the API's functionality.
+#Refer to these screenshots for a visual representation of the API's functionality.
