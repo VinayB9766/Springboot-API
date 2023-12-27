@@ -1,38 +1,26 @@
 # Springboot-API
 #  Logistic Load Management API
 In order to understand the API see the basic structure of API it is as given below:
-project-root/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/
-│   │   │       └── logistic/
-│   │   │           └── assigment/
-│   │   │               ├── controller/
-│   │   │               │   └── LoadController.java
-│   │   │               ├── model/
-│   │   │               │   └── Load.java
-│   │   │               ├── repository/
-│   │   │               │   └── LoadRepository.java
-│   │   │               └── service/
-│   │   │                   ├── LoadService.java
-│   │   │                   └── LoadServiceImpl.java
-│   │   ├── resources/
-│   │   │   └── application.properties
-│   └── test/
-│       └── java/
-│           └── com/
-│               └── logistic/
-│                   └── assigment/
-│                       └── controller/
-│                           └── LoadControllerTest.java
-├── .gitignore
-├── mvnw
-├── mvnw.cmd
-├── pom.xml
-└── README.md
+**Project Structure:**
+-assigment/'
+- `src/`
+  - `main/`
+    - `java/`
+      - `com/`
+        - `logistic/`
+          - `assigment/`
+            - `Controller/`
+              - `LoadController.java`
+            - `model/`
+              - `Load.java`
+            - `service/`
+              - `LoadService.java`
+            - `AssigmentApplication.java`
+    - `resources/`
+      - `application.properties`
+- `pom.xml`
+- `README.md`
 Explanation:
-
 src/main/java/com/logistic/assigment/controller/: Contains controller classes.
 src/main/java/com/logistic/assigment/model/: Contains model classes (e.g., Load.java).
 src/main/java/com/logistic/assigment/repository/: Contains repository interfaces (e.g., LoadRepository.java).
